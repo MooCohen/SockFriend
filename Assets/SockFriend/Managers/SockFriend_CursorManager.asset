@@ -111,7 +111,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
     dontCycle: 0
-    label: Use
+    label: Lazily point...
     lineID: -1
     id: 0
   - texture: {fileID: 2800000, guid: f03835de3da7f442f92582f0dd5e5863, type: 3}
@@ -127,7 +127,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
     dontCycle: 0
-    label: Talk to
+    label: Mumble...
     lineID: -1
     id: 1
   - texture: {fileID: 2800000, guid: e0394f989f329496584e377a81d4031f, type: 3}
@@ -143,10 +143,13 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
     dontCycle: 0
-    label: Look at
+    label: Peek...
     lineID: -1
     id: 2
-  unhandledCursorInteractions: []
+  unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   lookUseCursorAction: 0
   lookCursor_ID: 0

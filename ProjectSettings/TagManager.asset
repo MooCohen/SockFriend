@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3835887777
+    locked: 0
+  - name: Floor
+    uniqueID: 386988313
+    locked: 0
+  - name: Table
+    uniqueID: 714785921
+    locked: 0
+  - name: Characters
+    uniqueID: 3338000259
+    locked: 0
+  - name: Hanging
+    uniqueID: 3646417149
+    locked: 0
