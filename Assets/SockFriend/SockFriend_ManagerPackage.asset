@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb4837106a44466aea61fef9b346fe, type: 3}
-  m_Name: References
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: SockFriend_ManagerPackage
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: 80d9a4b4887b181458826d862d875e47, type: 2}
   sceneManager: {fileID: 11400000, guid: 165c2c17fd0a08b46867a0a0c63cde63, type: 2}
@@ -20,4 +20,3 @@ MonoBehaviour:
   speechManager: {fileID: 11400000, guid: a184556c18a35234088596442ee982c3, type: 2}
   cursorManager: {fileID: 11400000, guid: 3f8ee7719c9803444bfb517c6fd0a7cb, type: 2}
   menuManager: {fileID: 11400000, guid: a46a2deb406d42640ab5013488e70a2e, type: 2}
-  viewingMenuManager: 0
