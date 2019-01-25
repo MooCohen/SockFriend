@@ -151,6 +151,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   passUnhandledHotspotAsParameter: 0
-  lookUseCursorAction: 0
-  lookCursor_ID: 0
+  lookUseCursorAction: 2
+  lookCursor_ID: 2
   forceCursorInEditor: 1
