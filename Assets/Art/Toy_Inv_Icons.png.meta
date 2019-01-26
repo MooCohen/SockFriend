@@ -104,10 +104,10 @@ TextureImporter:
       name: Toy_Inv_Icons_0
       rect:
         serializedVersion: 2
-        x: 79
-        y: 576
-        width: 66
-        height: 275
+        x: 87
+        y: 603
+        width: 50
+        height: 216
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,7 +115,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e492f98573fa614d82fbd2178df4d9a
+      spriteID: eaa21153e191c7f48b4339fd781dbabe
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a5ecf86206723a4d890815a5be0a177
+      spriteID: 4b773788115e07440baa2e217d7c1167
       vertices: []
       indices: 
       edges: []
@@ -155,13 +155,53 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 508d4ba3eb1570340b86fd9321bbb252
+      spriteID: a9df752384142d843ac30ff68ea2729d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Toy_Inv_Icons_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 184
+        width: 301
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df9b415ef41a2a4ab8b671e70133595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toy_Inv_Icons_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 180
+        width: 285
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905041ec95634f348a2bddba5634d20c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toy_Inv_Icons_5
       rect:
         serializedVersion: 2
         x: 688
@@ -175,47 +215,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55ba543f83d5f9540905cd44d15f8bc5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Toy_Inv_Icons_4
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 183
-        width: 283
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83ac1f0ff5aae154d8b4df59a21458a5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Toy_Inv_Icons_5
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 184
-        width: 299
-        height: 369
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7416f4ea3652d33428838c73973aaf7c
+      spriteID: a311d53042c57d64eb4fd98704683614
       vertices: []
       indices: 
       edges: []
