@@ -46,7 +46,7 @@ MonoBehaviour:
     frameSpeeds: []
     alwaysAnimate: 0
   pointerIcon:
-    texture: {fileID: 2800000, guid: 5c83780962ed843c0928648679746938, type: 3}
+    texture: {fileID: 2800000, guid: 76294c76103d144be8f4715034382d57, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -98,12 +98,12 @@ MonoBehaviour:
     label: to
     lineID: -1
   cursorIcons:
-  - texture: {fileID: 2800000, guid: fca3605bfa5c847a19ca115a1c925bd1, type: 3}
+  - texture: {fileID: 2800000, guid: 3e391970acdbe9b4381cd1135f730420, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.1
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -114,12 +114,12 @@ MonoBehaviour:
     label: Lazily point...
     lineID: -1
     id: 0
-  - texture: {fileID: 2800000, guid: f03835de3da7f442f92582f0dd5e5863, type: 3}
+  - texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.1
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
@@ -130,12 +130,12 @@ MonoBehaviour:
     label: Mumble...
     lineID: -1
     id: 1
-  - texture: {fileID: 2800000, guid: e0394f989f329496584e377a81d4031f, type: 3}
+  - texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
     numCols: 1
-    size: 0.05
+    size: 0.1
     animSpeed: 4
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
