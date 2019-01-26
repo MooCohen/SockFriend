@@ -46,7 +46,7 @@ MonoBehaviour:
   hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   runConversationsWithKeys: 1
-  clickUpInteractions: 0
+  clickUpInteractions: 1
   defaultMouseClicks: 1
   allowGameplayDuringConversations: 0
   shareInventory: 0
