@@ -29,7 +29,7 @@ MonoBehaviour:
   players: []
   movementMethod: 0
   inputMethod: 0
-  interactionMethod: 0
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
   cancelInteractions: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   runConversationsWithKeys: 1
   clickUpInteractions: 0
   defaultMouseClicks: 1
-  allowGameplayDuringConversations: 1
+  allowGameplayDuringConversations: 0
   shareInventory: 0
   inventoryDragDrop: 1
   dragDropThreshold: 0.1
