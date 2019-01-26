@@ -36,7 +36,7 @@ MonoBehaviour:
   seeInteractions: 0
   closeInteractionMenuIfTapHotspot: 1
   stopPlayerOnClickHotspot: 0
-  cycleInventoryCursors: 1
+  cycleInventoryCursors: 0
   scaleCursorSpeedWithScreen: 1
   autoCycleWhenInteract: 0
   showHoverInteractionInHotspotLabel: 0
