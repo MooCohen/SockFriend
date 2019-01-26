@@ -54,7 +54,7 @@ MonoBehaviour:
   dragDropThreshold: 0.1
   allowInventoryInteractionsDuringConversations: 0
   inventoryDropLook: 1
-  inventoryInteractions: 1
+  inventoryInteractions: 0
   inventoryDisableLeft: 1
   allowDefaultInventoryInteractions: 0
   inventoryDisableUnhandled: 1
@@ -68,7 +68,7 @@ MonoBehaviour:
   rightClickInventory: 1
   reverseInventoryCombinations: 1
   canMoveWhenActive: 1
-  selectInvWithUnhandled: 0
+  selectInvWithUnhandled: 1
   selectInvWithIconID: 0
   giveInvWithUnhandled: 0
   giveInvWithIconID: 0
