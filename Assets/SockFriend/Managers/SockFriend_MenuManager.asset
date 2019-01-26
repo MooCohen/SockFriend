@@ -466,7 +466,7 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: Navi
-  slotSize: {x: 17.773438, y: 5.15625}
+  slotSize: {x: 17.773438, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -658,13 +658,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 14
   title: Creditmenu
-  manualSize: {x: 21.459373, y: 61.538754}
+  manualSize: {x: 31.02969, y: 52.115627}
   positionType: 0
-  manualPosition: {x: 512, y: 320}
+  manualPosition: {x: 512, y: 384}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -747,13 +747,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 203.872, y: 377.976}
+  biggestElementSize: {x: 301.872, y: 384.376}
   rect:
     serializedVersion: 2
-    x: 402.128
-    y: 123.07599
-    width: 219.74399
-    height: 393.84802
+    x: 353.128
+    y: 183.87599
+    width: 317.74402
+    height: 400.24802
   showInFilter: 1
 --- !u!114 &114060967464181694
 MonoBehaviour:
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   ID: 5
   isEditing: 0
   title: Jem
-  slotSize: {x: 18.359375, y: 5.15625}
+  slotSize: {x: 18.359375, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2621,7 +2621,7 @@ MonoBehaviour:
   ID: 6
   isEditing: 0
   title: Ryan
-  slotSize: {x: 14.550781, y: 5.15625}
+  slotSize: {x: 14.550781, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -3484,7 +3484,7 @@ MonoBehaviour:
   ID: 4
   isEditing: 0
   title: Cerise
-  slotSize: {x: 14.941406, y: 5.15625}
+  slotSize: {x: 14.941406, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4815,7 +4815,7 @@ MonoBehaviour:
   ID: 2
   isEditing: 0
   title: 'Mo '
-  slotSize: {x: 13.671875, y: 5.15625}
+  slotSize: {x: 13.671875, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4992,7 +4992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 7
-  isEditing: 1
+  isEditing: 0
   title: Back
   slotSize: {x: 16, y: 5}
   sizeType: 1
@@ -5021,7 +5021,7 @@ MonoBehaviour:
     x: 15.872
     y: 345.976
     width: 163.84
-    height: 32
+    height: 38.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6480,7 +6480,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 1
   title: Play Again
-  slotSize: {x: 16.015625, y: 6.875}
+  slotSize: {x: 16.015625, y: 5.7291665}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6507,7 +6507,7 @@ MonoBehaviour:
     x: 5.12
     y: 5.12
     width: 164
-    height: 44
+    height: 43.999996
   relativePosition: {x: 37, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6607,9 +6607,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  isEditing: 0
+  isEditing: 1
   title: Olivier
-  slotSize: {x: 13.28125, y: 5.15625}
+  slotSize: {x: 27.929688, y: 4.296875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6635,12 +6635,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 15.872
     y: 52.743996
-    width: 136
+    width: 286
     height: 33
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
-  label: Olivier YC
+  label: Olivier Youhak Chrun
   anchor: 4
   textEffects: 0
   outlineSize: 2
@@ -7930,11 +7930,11 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 15
   title: Play Again?
-  manualSize: {x: 17.015625, y: 8.474999}
+  manualSize: {x: 17.015625, y: 7.062499}
   positionType: 2
   manualPosition: {x: 55.6, y: 84.6}
   positionSmoothing: 0
@@ -8005,13 +8005,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 169.12, y: 49.12}
+  biggestElementSize: {x: 169.12, y: 49.119995}
   rect:
     serializedVersion: 2
     x: 482.224
-    y: 514.31995
+    y: 622.608
     width: 174.23999
-    height: 54.239998
+    height: 54.239994
   showInFilter: 1
 --- !u!114 &114838657078007898
 MonoBehaviour:
@@ -8651,7 +8651,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 0
   title: Heading
-  slotSize: {x: 15.625, y: 3.28125}
+  slotSize: {x: 15.625, y: 2.734375}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
