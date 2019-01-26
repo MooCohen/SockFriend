@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Sock
     id: 0
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -48,7 +48,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
   - label: Lipstick
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -124,7 +124,7 @@ MonoBehaviour:
   - label: Banana_Peel
     id: 2
     altLabel: Banana Peel
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -156,7 +156,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0

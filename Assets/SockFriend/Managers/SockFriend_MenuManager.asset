@@ -365,10 +365,10 @@ MonoBehaviour:
   linkedUiID: 405976
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 157.5
-    height: 22.5
+    x: 5.0790396
+    y: 255.74399
+    width: 307.19998
+    height: 38.399998
   relativePosition: {x: 1.6, y: 74}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -658,7 +658,7 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 14
   title: Creditmenu
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 2
-  isEditing: 0
+  isEditing: 1
   title: SaveButton
   slotSize: {x: 16, y: 5}
   sizeType: 1
@@ -978,10 +978,10 @@ MonoBehaviour:
   linkedUiID: 409594
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 157.5
-    height: 22.5
+    x: 5.0790396
+    y: 300.672
+    width: 307.19998
+    height: 38.399998
   relativePosition: {x: 1.6, y: 87}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -1048,10 +1048,10 @@ MonoBehaviour:
   linkedUiID: 366448
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 98.7
-    height: 22.5
+    x: 87.29599
+    y: 51.839996
+    width: 192.512
+    height: 38.399998
   relativePosition: {x: 27.5, y: 15}
   numSlots: 1
   uiText: {fileID: 0}
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   title: Profiles
   manualSize: {x: 30.999998, y: 45}
   positionType: 0
-  manualPosition: {x: 262.5, y: 225}
+  manualPosition: {x: 512, y: 384}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -1375,10 +1375,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 181.125
-    y: 123.75
-    width: 162.74998
-    height: 202.5
+    x: 353.28003
+    y: 211.20001
+    width: 317.43997
+    height: 345.59998
   showInFilter: 1
 --- !u!114 &114113934277282254
 MonoBehaviour:
@@ -2058,10 +2058,10 @@ MonoBehaviour:
   linkedUiID: 1402734
   relativeRect:
     serializedVersion: 2
-    x: 2.625
-    y: 2.625
-    width: 157.5
-    height: 22.5
+    x: 5.12
+    y: 5.12
+    width: 307.19998
+    height: 38.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -2117,10 +2117,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 141.22499
-    height: 90
+    x: 36.505596
+    y: 96.768
+    width: 275.456
+    height: 153.59999
   relativePosition: {x: 11.5, y: 28}
   numSlots: 4
   uiSlots:
@@ -2391,7 +2391,7 @@ MonoBehaviour:
   - label: Banana_Peel
     id: 2
     altLabel: Banana Peel
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -2434,8 +2434,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -2704,10 +2740,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 2.625
-    y: 27.75
-    width: 157.5
-    height: 90
+    x: 5.12
+    y: 48.639996
+    width: 307.19998
+    height: 153.59999
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   uiSlots:
@@ -2958,10 +2994,10 @@ MonoBehaviour:
   linkedUiID: 347198
   relativeRect:
     serializedVersion: 2
-    x: 2.625
-    y: 2.625
-    width: 157.5
-    height: 22.5
+    x: 5.12
+    y: 5.12
+    width: 307.19998
+    height: 38.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -3272,7 +3308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 5
-  isEditing: 1
+  isEditing: 0
   title: Credits
   slotSize: {x: 16, y: 5}
   sizeType: 1
@@ -3438,10 +3474,10 @@ MonoBehaviour:
   linkedUiID: 371314
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 15.75
-    height: 22.5
+    x: 279.98203
+    y: 51.839996
+    width: 30.72
+    height: 38.399998
   relativePosition: {x: 88.2, y: 15}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -3567,10 +3603,10 @@ MonoBehaviour:
   linkedUiID: 395396
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 15.75
-    height: 22.5
+    x: 5.3964796
+    y: 96.768
+    width: 30.72
+    height: 38.399998
   relativePosition: {x: 1.7, y: 28}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -4060,7 +4096,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -4071,8 +4107,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -4221,7 +4293,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -4282,10 +4354,10 @@ MonoBehaviour:
   linkedUiID: 353508
   relativeRect:
     serializedVersion: 2
-    x: 2.625
-    y: 27.75
-    width: 42
-    height: 22.5
+    x: 5.12
+    y: 48.639996
+    width: 81.92
+    height: 38.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -4992,7 +5064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 7
-  isEditing: 0
+  isEditing: 1
   title: Back
   slotSize: {x: 16, y: 5}
   sizeType: 1
@@ -5483,7 +5555,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -5494,8 +5566,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -5644,7 +5752,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -5845,10 +5953,10 @@ MonoBehaviour:
   linkedUiID: 1468400
   relativeRect:
     serializedVersion: 2
-    x: 2.625
-    y: 120.375
-    width: 157.5
-    height: 22.5
+    x: 5.12
+    y: 207.35999
+    width: 307.19998
+    height: 38.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6223,7 +6331,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -6234,8 +6342,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -6384,7 +6528,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -6419,7 +6563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  isEditing: 0
+  isEditing: 1
   title: TitleLabel
   slotSize: {x: 30, y: 5}
   sizeType: 1
@@ -6607,7 +6751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  isEditing: 1
+  isEditing: 0
   title: Olivier
   slotSize: {x: 27.929688, y: 4.296875}
   sizeType: 0
@@ -6676,9 +6820,9 @@ MonoBehaviour:
   isLocked: 0
   id: 2
   title: Load
-  manualSize: {x: 31, y: 32.333332}
+  manualSize: {x: 30.999998, y: 32.666664}
   positionType: 0
-  manualPosition: {x: 262.5, y: 225}
+  manualPosition: {x: 512, y: 384}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -6751,13 +6895,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 160.125, y: 142.875}
+  biggestElementSize: {x: 312.31998, y: 245.75998}
   rect:
     serializedVersion: 2
-    x: 181.125
-    y: 152.25
-    width: 162.75
-    height: 145.5
+    x: 353.28003
+    y: 258.56
+    width: 317.43997
+    height: 250.87997
   showInFilter: 1
 --- !u!114 &114739020683211494
 MonoBehaviour:
@@ -7080,7 +7224,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -7091,8 +7235,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -7241,7 +7421,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -7362,7 +7542,7 @@ MonoBehaviour:
   rectTransformID: 14532472
   uiTransitionType: 1
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 9
   title: Subtitles
@@ -8218,7 +8398,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -8229,8 +8409,44 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
-    interactions: []
+    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    interactions:
+    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Mumble...
+        lineID: -1
+        id: 1
+    - actionList: {fileID: 11400000, guid: 4f4094c72b31444a580dd21a26d72de0, type: 2}
+      icon:
+        texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+        isAnimated: 0
+        numFrames: 1
+        numRows: 1
+        numCols: 1
+        size: 0.1
+        animSpeed: 4
+        endAnimOnLastFrame: 0
+        skipFirstFrameWhenLooping: 0
+        clickOffset: {x: 0, y: 0}
+        frameSpeeds: []
+        alwaysAnimate: 0
+        dontCycle: 0
+        label: Peek...
+        lineID: -1
+        id: 2
     combineActionList: []
     combineID: 
     unhandledActionList: {fileID: 0}
@@ -8473,10 +8689,10 @@ MonoBehaviour:
   linkedUiID: 402318
   relativeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 15.75
-    height: 22.5
+    x: 5.3964796
+    y: 210.816
+    width: 30.72
+    height: 38.399998
   relativePosition: {x: 1.7, y: 61}
   numSlots: 1
   uiButton: {fileID: 0}
