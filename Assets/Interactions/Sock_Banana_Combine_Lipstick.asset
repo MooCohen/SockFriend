@@ -358,8 +358,8 @@ MonoBehaviour:
   willWait: 1
   isRunning: 0
   lastResult:
-    resultAction: 0
-    skipAction: -10
+    resultAction: 1
+    skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -376,12 +376,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23
     y: 440
-    width: 300
+    width: 327.4
     height: 165
   nodeHeight: 0
   listSource: 0
   actionList: {fileID: 0}
-  constantID: 4410
+  constantID: 34110
   parameterID: -1
   invActionList: {fileID: 0}
   assetParameterID: -1
@@ -390,7 +390,7 @@ MonoBehaviour:
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 0
+  isSkippable: 1
   localParameters: []
   parameterIDs: 
   setParameters: 1
