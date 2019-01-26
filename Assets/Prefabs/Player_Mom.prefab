@@ -168,7 +168,7 @@ MonoBehaviour:
   animationEngine: 2
   customAnimationClass: 
   motionControl: 0
-  talkingAnimation: 0
+  talkingAnimation: 1
   separateTalkingLayer: 0
   speechLabel: Mom
   lineID: -1
@@ -245,28 +245,16 @@ MonoBehaviour:
   frameFlipping: 0
   flipCustomAnims: 0
   _spriteDirectionData:
-    directions: 1
-    down: 1
-    left: 1
-    right: 1
-    up: 1
+    directions: 0
+    down: 0
+    left: 0
+    right: 0
+    up: 0
     downLeft: 0
     upLeft: 0
     upRight: 0
     downRight: 0
-    spriteDirections:
-    - suffix: D
-      angle: 0
-      maxAngle: 45
-    - suffix: L
-      angle: 90
-      maxAngle: 135
-    - suffix: U
-      angle: 180
-      maxAngle: 225
-    - suffix: R
-      angle: 270
-      maxAngle: 315
+    spriteDirections: []
     isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 0
@@ -474,6 +462,7 @@ GameObject:
   - component: {fileID: 5856991225660363981}
   - component: {fileID: 5856991225660363970}
   - component: {fileID: 5856991225660363971}
+  - component: {fileID: 3601766379577957069}
   m_Layer: 0
   m_Name: Player_Mom
   m_TagString: Untagged
@@ -561,3 +550,22 @@ MonoBehaviour:
   customSortingMap: {fileID: 0}
   offsetOriginal: 0
   livePreview: 0
+--- !u!95 &3601766379577957069
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5856991225660363982}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e5ff20a1ba6ff4efa8c7884d2677d756, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
