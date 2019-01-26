@@ -246,17 +246,29 @@ MonoBehaviour:
   frameFlipping: 0
   flipCustomAnims: 0
   _spriteDirectionData:
-    directions: 0
-    down: 0
-    left: 0
-    right: 0
-    up: 0
+    directions: 1
+    down: 1
+    left: 1
+    right: 1
+    up: 1
     downLeft: 0
     upLeft: 0
     upRight: 0
     downRight: 0
-    spriteDirections: []
-    isUpgraded: 0
+    spriteDirections:
+    - suffix: D
+      angle: 0
+      maxAngle: 45
+    - suffix: L
+      angle: 90
+      maxAngle: 135
+    - suffix: U
+      angle: 180
+      maxAngle: 225
+    - suffix: R
+      angle: 270
+      maxAngle: 315
+    isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 2
   runSpeedScale: 6
@@ -501,7 +513,7 @@ Transform:
   m_GameObject: {fileID: 5856991225660363982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5856991224003853252}
   m_RootOrder: 0
@@ -543,8 +555,8 @@ SpriteRenderer:
   m_SortingLayerID: -956967037
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.06132078, g: 1, b: 0.9157734, a: 1}
+  m_Sprite: {fileID: 21300022, guid: 8a5f96d850b56774eaca6477b52f6cf3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
