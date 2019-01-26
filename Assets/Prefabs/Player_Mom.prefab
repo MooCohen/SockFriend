@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 5856991224003853254}
   - component: {fileID: 5856991224003853255}
   - component: {fileID: 5856991224003853248}
-  - component: {fileID: 5856991224003853249}
   m_Layer: 2
   m_Name: Player_Mom
   m_TagString: Player
@@ -270,14 +269,14 @@ MonoBehaviour:
       maxAngle: 315
     isUpgraded: 1
   angleSnapping: 0
-  walkSpeedScale: 2
-  runSpeedScale: 6
+  walkSpeedScale: 0
+  runSpeedScale: 0
   reverseSpeedFactor: 1
-  turnSpeed: 7
-  acceleration: 6
+  turnSpeed: 0
+  acceleration: 0
   deceleration: 0
   turnBeforeWalking: 0
-  runDistanceThreshold: 1
+  runDistanceThreshold: 0
   antiGlideMode: 0
   retroPathfinding: 0
   isJumping: 0
@@ -320,27 +319,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!50 &5856991224003853249
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856991224003853250}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &5856991224821937743
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +474,6 @@ GameObject:
   - component: {fileID: 5856991225660363981}
   - component: {fileID: 5856991225660363970}
   - component: {fileID: 5856991225660363971}
-  - component: {fileID: 5856991225660363980}
   m_Layer: 0
   m_Name: Player_Mom
   m_TagString: Untagged
@@ -584,22 +561,3 @@ MonoBehaviour:
   customSortingMap: {fileID: 0}
   offsetOriginal: 0
   livePreview: 0
---- !u!95 &5856991225660363980
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856991225660363982}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
