@@ -29,6 +29,7 @@ MonoBehaviour:
   - {fileID: 114412343689073528}
   - {fileID: 114167699080343844}
   - {fileID: 114053895150396012}
+  - {fileID: 114832400173665630}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -465,7 +466,7 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: Navi
-  slotSize: {x: 17.773438, y: 4.296875}
+  slotSize: {x: 17.773438, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -657,13 +658,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 14
   title: Creditmenu
-  manualSize: {x: 21.459373, y: 52.115627}
+  manualSize: {x: 21.459373, y: 61.538754}
   positionType: 0
-  manualPosition: {x: 512, y: 384}
+  manualPosition: {x: 512, y: 320}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -746,13 +747,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 203.872, y: 384.376}
+  biggestElementSize: {x: 203.872, y: 377.976}
   rect:
     serializedVersion: 2
     x: 402.128
-    y: 183.87599
+    y: 123.07599
     width: 219.74399
-    height: 400.24802
+    height: 393.84802
   showInFilter: 1
 --- !u!114 &114060967464181694
 MonoBehaviour:
@@ -1217,7 +1218,7 @@ MonoBehaviour:
   ID: 5
   isEditing: 0
   title: Jem
-  slotSize: {x: 18.359375, y: 4.296875}
+  slotSize: {x: 18.359375, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2620,7 +2621,7 @@ MonoBehaviour:
   ID: 6
   isEditing: 0
   title: Ryan
-  slotSize: {x: 14.550781, y: 4.296875}
+  slotSize: {x: 14.550781, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -3483,7 +3484,7 @@ MonoBehaviour:
   ID: 4
   isEditing: 0
   title: Cerise
-  slotSize: {x: 14.941406, y: 4.296875}
+  slotSize: {x: 14.941406, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -4814,7 +4815,7 @@ MonoBehaviour:
   ID: 2
   isEditing: 0
   title: 'Mo '
-  slotSize: {x: 13.671875, y: 4.296875}
+  slotSize: {x: 13.671875, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -5020,7 +5021,7 @@ MonoBehaviour:
     x: 15.872
     y: 345.976
     width: 163.84
-    height: 38.399998
+    height: 32
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6464,6 +6465,76 @@ MonoBehaviour:
   itemPropertyID: 0
   inventoryPropertyType: 0
   itemSlotNumber: 0
+--- !u!114 &114698556548525406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64747f67d47cb4e04a88bea43b7c1cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  isEditing: 1
+  title: Play Again
+  slotSize: {x: 16.015625, y: 6.875}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 12800000, guid: 98d115410b103f64ba04abfafaec885f, type: 3}
+  fontScaleFactor: 3.83
+  fontColor: {r: 0.8941177, g: 0.909804, b: 0.8235295, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 1
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  relativeRect:
+    serializedVersion: 2
+    x: 5.12
+    y: 5.12
+    width: 164
+    height: 44
+  relativePosition: {x: 37, y: 0}
+  numSlots: 1
+  uiButton: {fileID: 0}
+  uiPointerState: 0
+  label: Play Again?
+  hotspotLabel: 
+  hotspotLabelID: -1
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  buttonClickType: 3
+  actionList: {fileID: 11400000, guid: 131309fbe1bc24aefa9b3b40fd96e086, type: 2}
+  parameterID: -1
+  parameterValue: 0
+  doFade: 0
+  switchMenuTitle: 
+  inventoryBoxTitle: 
+  shiftInventory: 0
+  shiftAmount: 1
+  onlyShowWhenEffective: 0
+  loopJournal: 0
+  inputAxis: 
+  simulateInput: 0
+  simulateValue: 1
+  clickTexture: {fileID: 0}
+  allowContinuousClick: 0
+  uiSelectableHideStyle: 0
 --- !u!114 &114717270415593308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6538,7 +6609,7 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: Olivier
-  slotSize: {x: 13.28125, y: 4.296875}
+  slotSize: {x: 13.28125, y: 5.15625}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -7840,6 +7911,108 @@ MonoBehaviour:
   itemPropertyID: 0
   inventoryPropertyType: 0
   itemSlotNumber: 0
+--- !u!114 &114832400173665630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 0
+  canvas: {fileID: 0}
+  canvasID: 0
+  rectTransform: {fileID: 0}
+  rectTransformID: 0
+  uiTransitionType: 0
+  uiPositionType: 0
+  isEditing: 1
+  isLocked: 0
+  id: 15
+  title: Play Again?
+  manualSize: {x: 17.015625, y: 8.474999}
+  positionType: 2
+  manualPosition: {x: 55.6, y: 84.6}
+  positionSmoothing: 0
+  alignment: 4
+  toggleKey: 
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 1
+  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  hideDuringSaveScreenshots: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 0}
+  visibleElements:
+  - {fileID: 114698556548525406}
+  transitionProgress: 0
+  appearType: 0
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  moveWithCharacter: 1
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements:
+  - {fileID: 114698556548525406}
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  speechProximityLimit: 0
+  speechProximityDistance: 10
+  deleteUIWhenTurnOff: 0
+  biggestElementSize: {x: 169.12, y: 49.12}
+  rect:
+    serializedVersion: 2
+    x: 482.224
+    y: 514.31995
+    width: 174.23999
+    height: 54.239998
+  showInFilter: 1
 --- !u!114 &114838657078007898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8478,7 +8651,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 0
   title: Heading
-  slotSize: {x: 15.625, y: 2.734375}
+  slotSize: {x: 15.625, y: 3.28125}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
