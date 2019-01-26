@@ -407,10 +407,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  isEditing: 0
+  isEditing: 1
   title: Use
-  slotSize: {x: 3.125, y: 4.1666665}
-  sizeType: 0
+  slotSize: {x: 100, y: 100}
+  sizeType: 2
   positionType: 0
   slotSpacing: 0
   lineID: -1
@@ -433,10 +433,10 @@ MonoBehaviour:
   linkedUiID: 15188550
   relativeRect:
     serializedVersion: 2
-    x: 2.7648
-    y: 2.7648
-    width: 32
-    height: 31.999998
+    x: 8.2944
+    y: 8.2944
+    width: 100
+    height: 100
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34, y: 11.999999}
+  manualSize: {x: 4.0039062, y: 2.734375}
   positionType: 3
   manualPosition: {x: 50, y: 44.4}
   positionSmoothing: 0
@@ -1473,13 +1473,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 348.16, y: 92.159996}
+  biggestElementSize: {x: 41, y: 21}
   rect:
     serializedVersion: 2
-    x: 337.91998
-    y: 294.91202
-    width: 348.16
-    height: 92.159996
+    x: 491.5
+    y: 330.492
+    width: 41
+    height: 21
   showInFilter: 1
 --- !u!114 &114181132143012648
 MonoBehaviour:
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 2
-  isEditing: 1
+  isEditing: 0
   title: InventoryBox
   slotSize: {x: 3.8, y: 6}
   sizeType: 1
@@ -2013,8 +2013,8 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 107.059204
-    y: 2.7648
+    x: 333.1776
+    y: 8.2944
     width: 0
     height: 46.079998
   relativePosition: {x: 0, y: 0}
@@ -2155,7 +2155,7 @@ MonoBehaviour:
   - label: Banana_Peel
     id: 2
     altLabel: Banana Peel
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -2187,7 +2187,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -2348,7 +2348,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -2698,8 +2698,8 @@ MonoBehaviour:
   ID: 0
   isEditing: 1
   title: HotspotLabel
-  slotSize: {x: 34, y: 12}
-  sizeType: 1
+  slotSize: {x: 4.0039062, y: 2.734375}
+  sizeType: 0
   positionType: 0
   slotSpacing: 0
   lineID: 85
@@ -2724,8 +2724,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 348.16
-    height: 92.159996
+    width: 41
+    height: 21
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -2757,8 +2757,8 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: Talk
-  slotSize: {x: 3.125, y: 4.1666665}
-  sizeType: 0
+  slotSize: {x: 100, y: 100}
+  sizeType: 2
   positionType: 0
   slotSpacing: 0
   lineID: -1
@@ -2781,10 +2781,10 @@ MonoBehaviour:
   linkedUiID: 15191042
   relativeRect:
     serializedVersion: 2
-    x: 37.529602
-    y: 2.7648
-    width: 32
-    height: 31.999998
+    x: 116.588806
+    y: 8.2944
+    width: 100
+    height: 100
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2879,7 +2879,7 @@ MonoBehaviour:
   isLocked: 0
   id: 6
   title: Interaction
-  manualSize: {x: 10.725, y: 6.72}
+  manualSize: {x: 33.346878, y: 15.180834}
   positionType: 4
   manualPosition: {x: 50, y: 50}
   positionSmoothing: 0
@@ -2917,7 +2917,7 @@ MonoBehaviour:
   - {fileID: 114385369500060754}
   - {fileID: 114810563421922536}
   - {fileID: 114303111745556934}
-  spacing: 0.27
+  spacing: 0.81
   sizeType: 0
   autoSizeEveryFrame: 0
   orientation: 0
@@ -2956,13 +2956,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 107.059204, y: 48.8448}
+  biggestElementSize: {x: 333.1776, y: 108.2944}
   rect:
     serializedVersion: 2
-    x: 457.088
-    y: 358.1952
-    width: 109.824005
-    height: 51.6096
+    x: 341.26398
+    y: 325.7056
+    width: 341.47202
+    height: 116.588806
   showInFilter: 1
 --- !u!114 &114433897572110392
 MonoBehaviour:
@@ -7059,8 +7059,8 @@ MonoBehaviour:
   ID: 0
   isEditing: 0
   title: Look
-  slotSize: {x: 3.125, y: 4.1666665}
-  sizeType: 0
+  slotSize: {x: 100, y: 100}
+  sizeType: 2
   positionType: 0
   slotSpacing: 0
   lineID: -1
@@ -7083,10 +7083,10 @@ MonoBehaviour:
   linkedUiID: 15193404
   relativeRect:
     serializedVersion: 2
-    x: 72.2944
-    y: 2.7648
-    width: 32
-    height: 31.999998
+    x: 224.88321
+    y: 8.2944
+    width: 100
+    height: 100
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
