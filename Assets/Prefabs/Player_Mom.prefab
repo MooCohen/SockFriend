@@ -168,7 +168,7 @@ MonoBehaviour:
   animationEngine: 2
   customAnimationClass: 
   motionControl: 0
-  talkingAnimation: 1
+  talkingAnimation: 0
   separateTalkingLayer: 0
   speechLabel: Mom
   lineID: -1
@@ -230,10 +230,10 @@ MonoBehaviour:
   turn2DCharactersIn3DSpace: 1
   spriteChild: {fileID: 5856991225660363981}
   rotateSprite3D: 0
-  idleAnimSprite: idle
-  walkAnimSprite: walk
-  runAnimSprite: run
-  talkAnimSprite: talk
+  idleAnimSprite: 
+  walkAnimSprite: 
+  runAnimSprite: 
+  talkAnimSprite: FrownTalk
   lockScale: 0
   spriteScale: 1
   lockDirection: 0
@@ -461,8 +461,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5856991225660363981}
   - component: {fileID: 5856991225660363970}
-  - component: {fileID: 5856991225660363971}
   - component: {fileID: 3601766379577957069}
+  - component: {fileID: 945708083}
   m_Layer: 0
   m_Name: Player_Mom
   m_TagString: Untagged
@@ -532,24 +532,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5856991225660363971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856991225660363982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c23c0cd1c274961a26f4e9cd5378d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lockSorting: 0
-  affectChildren: 1
-  followSortingMap: 1
-  customSortingMap: {fileID: 0}
-  offsetOriginal: 0
-  livePreview: 0
 --- !u!95 &3601766379577957069
 Animator:
   serializedVersion: 3
@@ -560,7 +542,7 @@ Animator:
   m_GameObject: {fileID: 5856991225660363982}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e5ff20a1ba6ff4efa8c7884d2677d756, type: 2}
+  m_Controller: {fileID: 9100000, guid: 46b2612376cc645e189a09e6ff11c19a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -569,3 +551,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &945708083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5856991225660363982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5648d12954c884e108bb3e215d32b60a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
