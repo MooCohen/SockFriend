@@ -171,7 +171,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: NPC_Kid
+  speechLabel: Theo
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
@@ -452,7 +452,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.6032429, y: -1.4777532}
+  m_Offset: {x: -0.9241142, y: 0.17081928}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -463,7 +463,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.2064857, y: 4.623475}
+  m_Size: {x: 5.564743, y: 18.781836}
   m_EdgeRadius: 0
 --- !u!114 &3230748291274332692
 MonoBehaviour:
