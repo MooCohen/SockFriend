@@ -98,7 +98,7 @@ MonoBehaviour:
     label: to
     lineID: -1
   cursorIcons:
-  - texture: {fileID: 2800000, guid: 3e391970acdbe9b4381cd1135f730420, type: 3}
+  - texture: {fileID: 2800000, guid: 48b17c4c008f97343aa4fc1d68ecf936, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -108,13 +108,14 @@ MonoBehaviour:
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
     clickOffset: {x: 0, y: 0}
-    frameSpeeds: []
+    frameSpeeds:
+    - 1
     alwaysAnimate: 0
     dontCycle: 0
     label: Lazily point...
     lineID: -1
     id: 0
-  - texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
+  - texture: {fileID: 2800000, guid: fc041b30f09df4d4db5084fbeac74053, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -130,7 +131,7 @@ MonoBehaviour:
     label: Mumble...
     lineID: -1
     id: 1
-  - texture: {fileID: 2800000, guid: 83399d3e8cfa7f443b937f4b882d7848, type: 3}
+  - texture: {fileID: 2800000, guid: 166f97d8e240ae04baed4fc4a8ad62be, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1

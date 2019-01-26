@@ -179,11 +179,11 @@ MonoBehaviour:
   rectTransformID: 14169666
   uiTransitionType: 1
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 5
   title: Conversation
-  manualSize: {x: 47.9, y: 29.399996}
+  manualSize: {x: 47.9, y: 28.999996}
   positionType: 2
   manualPosition: {x: 32.8, y: 69.7}
   positionSmoothing: 0
@@ -256,13 +256,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 485.376, y: 183.03998}
+  biggestElementSize: {x: 485.376, y: 217.59998}
   rect:
     serializedVersion: 2
     x: 90.62398
-    y: 352
+    y: 423.93597
     width: 490.496
-    height: 188.15997
+    height: 222.71997
   showInFilter: 1
 --- !u!114 &114008951681933864
 MonoBehaviour:
@@ -427,7 +427,7 @@ MonoBehaviour:
   gridWidth: 3
   backgroundTexture: {fileID: 0}
   singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 2800000, guid: ac2dde689ce194d9a81a41f09e6b56b4, type: 3}
+  highlightTexture: {fileID: 2800000, guid: 9656bc60b0133514e9c717d30ea768c0, type: 3}
   hoverSound: {fileID: 0}
   clickSound: {fileID: 0}
   changeCursor: 0
@@ -450,7 +450,7 @@ MonoBehaviour:
   iconID: 0
   uiSelectableHideStyle: 0
   overrideTexture: 0
-  activeTexture: {fileID: 0}
+  activeTexture: {fileID: 2800000, guid: 48b17c4c008f97343aa4fc1d68ecf936, type: 3}
 --- !u!114 &114044352550850824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     x: 5.12
     y: 5.12
     width: 479.232
-    height: 166.4
+    height: 199.68
   relativePosition: {x: 0, y: 0}
   numSlots: 5
   uiSlots:
@@ -1827,9 +1827,9 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 5.12
-    y: 176.63998
+    y: 209.91998
     width: 480.256
-    height: 6.4
+    height: 7.68
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiSlider: {fileID: 0}
@@ -2213,7 +2213,7 @@ MonoBehaviour:
   - label: Sock
     id: 0
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -2221,7 +2221,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 669f27e4531be8b43a0c066fecc5448b, type: 3}
+    tex: {fileID: 2800000, guid: d73f466ffcd224d89a728c9c751d4960, type: 3}
     activeTex: {fileID: 2800000, guid: 403c7131fd05444f0af1c292d633a330, type: 3}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2245,7 +2245,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 0
+    isEditing: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -2268,7 +2268,7 @@ MonoBehaviour:
   - label: Lipstick
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -2276,7 +2276,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 6a4c0a7441d1fbf419c9767c5e86d8ac, type: 3}
+    tex: {fileID: 2800000, guid: 1111ddf7b0cc246cdbe07590c37b8f85, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   - label: Banana_Peel
     id: 2
     altLabel: Banana Peel
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars: []
@@ -2329,7 +2329,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 8c5ed07b9954f2743bda8274381d4ab3, type: 3}
+    tex: {fileID: 2800000, guid: 4fddf089b681342909c549534eef69d3, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2353,7 +2353,7 @@ MonoBehaviour:
     lineID: -1
     useIconID: 0
     binID: -1
-    isEditing: 1
+    isEditing: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -2418,7 +2418,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 9769a8d16eea097418fb03d9eed6bc6b, type: 3}
+    tex: {fileID: 2800000, guid: fef839d56fe1f415fba67e56a0b3cb7b, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2472,7 +2472,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: 1e7c4f5c93e2d5a44b8aa283fdf36637, type: 3}
+    tex: {fileID: 2800000, guid: c6e8429d60cc54ba1a80cc23209af8c2, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2526,7 +2526,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 2800000, guid: e72c288cf8c9cff45849fc1264535104, type: 3}
+    tex: {fileID: 2800000, guid: dc2f69ad4139d4e3680c8b4c70e39e2a, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   gridWidth: 3
   backgroundTexture: {fileID: 0}
   singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 2800000, guid: ac2dde689ce194d9a81a41f09e6b56b4, type: 3}
+  highlightTexture: {fileID: 2800000, guid: 8e8334695af8ee04f9b14be7a13c88f1, type: 3}
   hoverSound: {fileID: 0}
   clickSound: {fileID: 0}
   changeCursor: 0
@@ -3136,7 +3136,7 @@ MonoBehaviour:
   rectTransformID: 15198304
   uiTransitionType: 1
   uiPositionType: 2
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 6
   title: Interaction
@@ -3156,7 +3156,7 @@ MonoBehaviour:
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
   fitWithinScreen: 1
-  backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
+  backgroundTexture: {fileID: 0}
   visibleElements:
   - {fileID: 114039345619499510}
   - {fileID: 114385369500060754}
@@ -7650,7 +7650,7 @@ MonoBehaviour:
   gridWidth: 3
   backgroundTexture: {fileID: 0}
   singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 2800000, guid: ac2dde689ce194d9a81a41f09e6b56b4, type: 3}
+  highlightTexture: {fileID: 2800000, guid: 0a6f3819c02b552458266a91e0d4c5b4, type: 3}
   hoverSound: {fileID: 0}
   clickSound: {fileID: 0}
   changeCursor: 0
