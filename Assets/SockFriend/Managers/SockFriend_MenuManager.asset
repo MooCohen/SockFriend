@@ -550,10 +550,10 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 142.71898
-    y: 101.84831
+    y: 0
     width: 544.768
     height: 40.960003
-  relativePosition: {x: 17.4, y: 42.1}
+  relativePosition: {x: 17.4, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
   label: Brain
@@ -7468,9 +7468,9 @@ MonoBehaviour:
   isLocked: 0
   id: 9
   title: Subtitles
-  manualSize: {x: 80.1, y: 37.8}
+  manualSize: {x: 80.1, y: 23}
   positionType: 1
-  manualPosition: {x: 512, y: 519.04004}
+  manualPosition: {x: 512, y: 566.39996}
   positionSmoothing: 0
   alignment: 7
   toggleKey: 
@@ -7484,7 +7484,7 @@ MonoBehaviour:
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
   fitWithinScreen: 1
-  backgroundTexture: {fileID: 0}
+  backgroundTexture: {fileID: 2800000, guid: a6480c938846c734d906cc205b7e2025, type: 3}
   visibleElements:
   - {fileID: 114045002160364106}
   - {fileID: 114816505925475146}
@@ -7547,9 +7547,9 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 101.888
-    y: 398.08002
+    y: 492.8
     width: 820.224
-    height: 241.92
+    height: 147.2
   showInFilter: 1
 --- !u!114 &114778570782976766
 MonoBehaviour:
@@ -7759,7 +7759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  isEditing: 1
+  isEditing: 0
   title: SubsLineLabel
   slotSize: {x: 64.2, y: 14.8}
   sizeType: 1
@@ -7775,7 +7775,7 @@ MonoBehaviour:
   isClickable: 0
   orientation: 0
   gridWidth: 3
-  backgroundTexture: {fileID: 2800000, guid: a6480c938846c734d906cc205b7e2025, type: 3}
+  backgroundTexture: {fileID: 0}
   singleSlotBackgrounds: 0
   highlightTexture: {fileID: 0}
   hoverSound: {fileID: 0}
@@ -7786,10 +7786,10 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 142.71898
-    y: 143.9424
+    y: 48.723198
     width: 657.40796
     height: 94.72
-  relativePosition: {x: 17.4, y: 59.5}
+  relativePosition: {x: 17.4, y: 33.1}
   numSlots: 1
   uiText: {fileID: 0}
   label: Hi!
@@ -8237,7 +8237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 2
-  isEditing: 0
+  isEditing: 1
   title: Graphic
   slotSize: {x: 13.8, y: 24.3}
   sizeType: 0
@@ -8264,10 +8264,10 @@ MonoBehaviour:
   relativeRect:
     serializedVersion: 2
     x: 0
-    y: 80.075516
+    y: 0
     width: 141.312
     height: 155.52
-  relativePosition: {x: 0, y: 33.1}
+  relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiImage: {fileID: 0}
   graphicType: 1

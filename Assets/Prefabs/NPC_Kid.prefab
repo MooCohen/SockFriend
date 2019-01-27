@@ -176,7 +176,7 @@ MonoBehaviour:
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
   portraitIcon:
-    texture: {fileID: 0}
+    texture: {fileID: 2800000, guid: 1dfb4ad62f88c4347a849a79e8fbf9fc, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
@@ -188,8 +188,23 @@ MonoBehaviour:
     clickOffset: {x: 0, y: 0}
     frameSpeeds: []
     alwaysAnimate: 0
-  useExpressions: 0
-  expressions: []
+  useExpressions: 1
+  expressions:
+  - ID: 0
+    label: Puppet
+    portraitIcon:
+      texture: {fileID: 2800000, guid: fa603269308714be7984d21fd96d31b5, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
   speechMenuPlacement: {fileID: 0}
   mapExpressionsToShapeable: 0
   expressionGroupID: 0
