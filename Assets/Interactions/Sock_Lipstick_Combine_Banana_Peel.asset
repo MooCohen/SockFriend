@@ -17,6 +17,7 @@ MonoBehaviour:
   - {fileID: 114042329191664954}
   - {fileID: 114822535695515652}
   - {fileID: 114804285540781542}
+  - {fileID: 114525344686003596}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -141,6 +142,62 @@ MonoBehaviour:
   setPlayer: 0
   playerID: 0
   addToFront: 0
+--- !u!114 &114525344686003596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
+  m_Name: ActionSound(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 16
+  title: Play
+  description: Triggers a Sound object to start playing. Can be used to fade sounds
+    in or out.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 1
+  willWait: 0
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 114804285540781542}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 452
+    width: 300
+    height: 219
+  nodeHeight: 0
+  constantID: 27032
+  parameterID: -1
+  soundObject: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: ca7f9b8eaf3035842aae78bc491810b2, type: 3}
+  audioClipParameterID: -1
+  fadeTime: 0
+  loop: 0
+  ignoreIfPlaying: 1
+  soundAction: 0
+  affectChildren: 0
 --- !u!114 &114804285540781542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -184,7 +241,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 434
+    y: 701
     width: 327.4
     height: 165
   nodeHeight: 0
@@ -235,9 +292,9 @@ MonoBehaviour:
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
-  endAction: 0
-  skipAction: 2
-  skipActionActual: {fileID: 114822535695515652}
+  endAction: 2
+  skipAction: 4
+  skipActionActual: {fileID: 114525344686003596}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -249,7 +306,7 @@ MonoBehaviour:
     x: 14
     y: 282
     width: 300
-    height: 122
+    height: 140
   nodeHeight: 0
   invAction: 0
   parameterID: -1

@@ -59,7 +59,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: 72b5bf46530bdb643b63518f3cb83d65, type: 2}
     interactions: []
     combineActionList:
     - {fileID: 11400000, guid: 0fc96a92b57624442a62eb5b42b46717, type: 2}
@@ -114,7 +114,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: f421bfbc67dc93342be5f9115951bb65, type: 2}
     interactions: []
     combineActionList: []
     combineID: 
@@ -167,7 +167,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 11400000, guid: 7153eab854f51fa4f84dd41a09f0152e, type: 2}
     interactions:
     - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
       icon:
@@ -256,7 +256,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: 9b53befb6d88f3a41b2b658bd3ca4870, type: 2}
     interactions: []
     combineActionList:
     - {fileID: 11400000, guid: fe50e4bf47ab3854787a3142a7adeda8, type: 2}
@@ -310,7 +310,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: e396b55ca75081a47995d1f8976d2636, type: 2}
     interactions: []
     combineActionList:
     - {fileID: 11400000, guid: 6b6db93c25d6bee4a9e869477f0a72b0, type: 2}
