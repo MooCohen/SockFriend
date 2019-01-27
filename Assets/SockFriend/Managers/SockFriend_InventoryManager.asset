@@ -169,7 +169,7 @@ MonoBehaviour:
     useActionList: {fileID: 0}
     lookActionList: {fileID: 11400000, guid: 7153eab854f51fa4f84dd41a09f0152e, type: 2}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0

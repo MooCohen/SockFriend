@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: KnockKnock
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 114811945042816132}
   - {fileID: 114561346617951904}
   - {fileID: 114541954781933196}
   - {fileID: 114851291088870490}
@@ -22,6 +23,8 @@ MonoBehaviour:
   - {fileID: 114452193305414576}
   - {fileID: 114689391490238152}
   - {fileID: 114842674576561064}
+  - {fileID: 114864427120594490}
+  - {fileID: 114409825281320954}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -55,13 +58,13 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 5
-  skipActionActual: {fileID: 0}
+  skipAction: 6
+  skipActionActual: {fileID: 114653513394765038}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -71,12 +74,86 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 679
+    y: 867
     width: 300
     height: 86
   nodeHeight: 0
   parameterID: -1
   timeToPause: 0.2
+--- !u!114 &114409825281320954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 18
+  title: Set
+  description: Sets the value of both Global and Local Variables, as declared in the
+    Variables Manager. Integers can be set to absolute, incremented or assigned a
+    random value. Strings can also be set to the value of a MenuInput element, while
+    Integers, Booleans and Floats can also be set to the value of a Mecanim parameter.
+    When setting Integers and Floats, you can also opt to type in a forumla (e.g.
+    2 + 3 *4), which can also include tokens of the form [var:ID] to denote the value
+    of a Variable, where ID is the unique number given to a Variable in the Variables
+    Manager.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 1
+  willWait: 0
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 404
+    y: 195
+    width: 300
+    height: 140
+  nodeHeight: 0
+  setVarMethod: 0
+  setVarMethodString: 0
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 6
+  variableNumber: 6
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  intValue: 0
+  floatValue: 0
+  boolValue: 0
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  lineID: -1
+  location: 0
+  menuName: 
+  elementName: 
+  animator: {fileID: 0}
+  parameterName: 
 --- !u!114 &114452193305414576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,12 +180,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 7
+  skipAction: 8
   skipActionActual: {fileID: 114689391490238152}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -119,7 +196,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 972
+    y: 1160
     width: 300
     height: 147
   nodeHeight: 0
@@ -153,12 +230,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 2
+  skipAction: 3
   skipActionActual: {fileID: 114851291088870490}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -169,7 +246,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 191
+    y: 379
     width: 300
     height: 86
   nodeHeight: 0
@@ -201,12 +278,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 1
+  skipAction: 2
   skipActionActual: {fileID: 114541954781933196}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -217,7 +294,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 202
     width: 300
     height: 147
   nodeHeight: 0
@@ -304,8 +381,8 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 7
-  skipActionActual: {fileID: 0}
+  skipAction: 8
+  skipActionActual: {fileID: 114689391490238152}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -315,15 +392,15 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 795
+    y: 983
     width: 300
     height: 147
   nodeHeight: 0
   parameterID: -1
-  constantID: 144800
+  constantID: 144760
   obToAffect: {fileID: 0}
   affectChildren: 0
-  visState: 0
+  visState: 1
 --- !u!114 &114689391490238152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -349,12 +426,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 7
+  skipAction: 8
   skipActionActual: {fileID: 114689391490238152}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -365,12 +442,86 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1149
+    y: 1337
     width: 300
     height: 86
   nodeHeight: 0
   parameterID: -1
   timeToPause: 0.2
+--- !u!114 &114811945042816132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdaacaae7eb224bd2b2b6d336bb7b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 18
+  title: Check
+  description: Queries the value of both Global and Local Variables declared in the
+    Variables Manager. Variables can be compared with a fixed value, or with the values
+    of other Variables.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 2
+  willWait: 0
+  isRunning: 0
+  lastResult:
+    resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 1
+  skipAction: 8
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 194
+  nodeHeight: 0
+  resultActionTrue: 2
+  skipActionTrue: 1
+  skipActionTrueActual: {fileID: 114561346617951904}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 11
+  skipActionFailActual: {fileID: 114409825281320954}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  variableID: 6
+  variableNumber: 6
+  checkParameterID: -1
+  getVarMethod: 0
+  compareVariableID: 0
+  intValue: 2
+  floatValue: 0
+  intCondition: 2
+  isAdditive: 0
+  boolValue: 1
+  boolCondition: 0
+  stringValue: 
+  checkCase: 1
+  vector3Value: {x: 0, y: 0, z: 0}
+  vectorCondition: 0
+  location: 0
 --- !u!114 &114842674576561064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -396,14 +547,14 @@ MonoBehaviour:
   willWait: 0
   isRunning: 0
   lastResult:
-    resultAction: 1
-    skipAction: -1
+    resultAction: 0
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
-  endAction: 1
-  skipAction: 8
-  skipActionActual: {fileID: 0}
+  endAction: 0
+  skipAction: 9
+  skipActionActual: {fileID: 114842674576561064}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -413,7 +564,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1265
+    y: 1453
     width: 300
     height: 147
   nodeHeight: 0
@@ -448,12 +599,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 0
-    skipAction: -1
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 0
-  skipAction: 4
+  skipAction: 5
   skipActionActual: {fileID: 114152504326098528}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -464,7 +615,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 307
+    y: 495
     width: 300
     height: 147
   nodeHeight: 0
@@ -473,6 +624,80 @@ MonoBehaviour:
   obToAffect: {fileID: 0}
   affectChildren: 0
   visState: 0
+--- !u!114 &114864427120594490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 18
+  title: Set
+  description: Sets the value of both Global and Local Variables, as declared in the
+    Variables Manager. Integers can be set to absolute, incremented or assigned a
+    random value. Strings can also be set to the value of a MenuInput element, while
+    Integers, Booleans and Floats can also be set to the value of a Mecanim parameter.
+    When setting Integers and Floats, you can also opt to type in a forumla (e.g.
+    2 + 3 *4), which can also include tokens of the form [var:ID] to denote the value
+    of a Variable, where ID is the unique number given to a Variable in the Variables
+    Manager.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  showOutputSockets: 1
+  numSockets: 1
+  willWait: 0
+  isRunning: 0
+  lastResult:
+    resultAction: 2
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  endAction: 2
+  skipAction: 0
+  skipActionActual: {fileID: 114811945042816132}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isMarked: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 12
+    y: 1611
+    width: 300
+    height: 140
+  nodeHeight: 0
+  setVarMethod: 1
+  setVarMethodString: 0
+  setVarMethodIntBool: 0
+  setVarMethodVector: 0
+  parameterID: -1
+  variableID: 6
+  variableNumber: 6
+  setParameterID: -1
+  slotNumber: 0
+  slotNumberParameterID: -1
+  intValue: 1
+  floatValue: 0
+  boolValue: 0
+  stringValue: 
+  formula: 
+  vector3Value: {x: 0, y: 0, z: 0}
+  lineID: -1
+  location: 0
+  menuName: 
+  elementName: 
+  animator: {fileID: 0}
+  parameterName: 
 --- !u!114 &114933504572096754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -499,12 +724,12 @@ MonoBehaviour:
   isRunning: 0
   lastResult:
     resultAction: 2
-    skipAction: 4
+    skipAction: -10
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   endAction: 2
-  skipAction: 4
+  skipAction: 5
   skipActionActual: {fileID: 114152504326098528}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -515,12 +740,12 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 484
+    y: 672
     width: 300
     height: 165
   nodeHeight: 0
   parameterID: -1
-  constantID: 144760
+  constantID: 144800
   obToAffect: {fileID: 0}
   affectChildren: 0
-  visState: 1
+  visState: 0
