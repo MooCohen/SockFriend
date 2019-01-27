@@ -234,7 +234,7 @@ MonoBehaviour:
   idleAnimSprite: Idle
   walkAnimSprite: Walk
   runAnimSprite: Walk
-  talkAnimSprite: Talk
+  talkAnimSprite: 
   lockScale: 0
   spriteScale: 1
   lockDirection: 0
