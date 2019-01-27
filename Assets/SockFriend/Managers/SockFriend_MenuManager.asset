@@ -466,9 +466,9 @@ MonoBehaviour:
   ID: 3
   isEditing: 0
   title: Navi
-  slotSize: {x: 17.480469, y: 5.7291665}
+  slotSize: {x: 17.480469, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -490,11 +490,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 178.48799
+    x: 14.72
+    y: 160.09207
     width: 179
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 33.9}
   numSlots: 1
   uiText: {fileID: 0}
   label: Navi Brouwer
@@ -658,13 +658,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 14
   title: Creditmenu
-  manualSize: {x: 37.100002, y: 62.490627}
+  manualSize: {x: 57.5, y: 73.78875}
   positionType: 0
-  manualPosition: {x: 512, y: 384}
+  manualPosition: {x: 512, y: 320}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -681,13 +681,14 @@ MonoBehaviour:
   backgroundTexture: {fileID: 2800000, guid: a6480c938846c734d906cc205b7e2025, type: 3}
   visibleElements:
   - {fileID: 114974737151002326}
-  - {fileID: 114721929697885756}
   - {fileID: 114598299885304352}
   - {fileID: 114044352550850824}
   - {fileID: 114467061561074622}
   - {fileID: 114100187335404680}
+  - {fileID: 114721929697885756}
   - {fileID: 114343689427441340}
   - {fileID: 114607146306223648}
+  - {fileID: 114240069295146642}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -701,15 +702,16 @@ MonoBehaviour:
   firstSelectedElement: 
   elements:
   - {fileID: 114974737151002326}
-  - {fileID: 114721929697885756}
   - {fileID: 114598299885304352}
   - {fileID: 114044352550850824}
   - {fileID: 114467061561074622}
   - {fileID: 114100187335404680}
+  - {fileID: 114721929697885756}
   - {fileID: 114343689427441340}
   - {fileID: 114607146306223648}
+  - {fileID: 114240069295146642}
   spacing: 1.55
-  sizeType: 0
+  sizeType: 1
   autoSizeEveryFrame: 0
   orientation: 1
   transitionType: 4
@@ -747,14 +749,14 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 364.032, y: 464.056}
+  biggestElementSize: {x: 364.032, y: 456.376}
   rect:
     serializedVersion: 2
-    x: 322.04797
-    y: 144.036
-    width: 379.90402
-    height: 479.928
-  showInFilter: 0
+    x: 217.6
+    y: 83.87601
+    width: 588.8
+    height: 472.248
+  showInFilter: 1
 --- !u!114 &114074469003135698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1148,9 +1150,9 @@ MonoBehaviour:
   ID: 5
   isEditing: 0
   title: Jem
-  slotSize: {x: 16.992188, y: 5.7291665}
+  slotSize: {x: 16.992188, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -1172,11 +1174,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 298.232
+    x: 14.72
+    y: 265.40338
     width: 174
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 56.2}
   numSlots: 1
   uiText: {fileID: 0}
   label: Jem Yoshioka
@@ -1787,6 +1789,68 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &114240069295146642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611a3370e9fc74eebbb277d7159c4851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 8
+  isEditing: 0
+  title: Puppet
+  slotSize: {x: 35.7, y: 74.3}
+  sizeType: 1
+  positionType: 2
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  relativeRect:
+    serializedVersion: 2
+    x: 228.45439
+    y: 0
+    width: 365.568
+    height: 475.52002
+  relativePosition: {x: 38.8, y: 0}
+  numSlots: 1
+  uiImage: {fileID: 0}
+  graphicType: 0
+  graphic:
+    texture: {fileID: 2800000, guid: 02e379873fd0c449a959ab9a4800aad0, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+  uiRawImage: {fileID: 0}
+  uiImageType: 0
 --- !u!114 &114246321823003752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2587,9 +2651,9 @@ MonoBehaviour:
   ID: 6
   isEditing: 0
   title: Ryan
-  slotSize: {x: 14.6484375, y: 5.7291665}
+  slotSize: {x: 14.6484375, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -2611,11 +2675,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 358.104
+    x: 14.72
+    y: 366.93668
     width: 150
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 77.7}
   numSlots: 1
   uiText: {fileID: 0}
   label: Ryan Stark
@@ -3450,9 +3514,9 @@ MonoBehaviour:
   ID: 4
   isEditing: 0
   title: Cerise
-  slotSize: {x: 15.0390625, y: 5.7291665}
+  slotSize: {x: 15.0390625, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -3474,11 +3538,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 238.35999
+    x: 14.72
+    y: 214.87283
     width: 154
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 45.5}
   numSlots: 1
   uiText: {fileID: 0}
   label: Cerise Parr
@@ -4810,9 +4874,9 @@ MonoBehaviour:
   ID: 2
   isEditing: 0
   title: 'Mo '
-  slotSize: {x: 12.402344, y: 5.7291665}
+  slotSize: {x: 12.402344, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -4834,11 +4898,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 118.616
+    x: 14.72
+    y: 109.08929
     width: 127
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 23.1}
   numSlots: 1
   uiText: {fileID: 0}
   label: Mo Cohen
@@ -4987,11 +5051,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 7
-  isEditing: 1
+  isEditing: 0
   title: Back
   slotSize: {x: 34, y: 6}
   sizeType: 1
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -5013,11 +5077,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 417.976
+    x: 77.721596
+    y: 425.49542
     width: 348.16
-    height: 46.079998
-  relativePosition: {x: 0, y: 0}
+    height: 38.4
+  relativePosition: {x: 13.2, y: 90.1}
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
@@ -6676,9 +6740,9 @@ MonoBehaviour:
   ID: 1
   isEditing: 0
   title: Olivier
-  slotSize: {x: 26.074219, y: 5.7291665}
+  slotSize: {x: 26.074219, y: 6.875}
   sizeType: 0
-  positionType: 0
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -6700,11 +6764,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 58.743996
+    x: 14.72
+    y: 315.9339
     width: 267
-    height: 43.999996
-  relativePosition: {x: 0, y: 0}
+    height: 44
+  relativePosition: {x: 2.5, y: 66.9}
   numSlots: 1
   uiText: {fileID: 0}
   label: Olivier Youhak Chrun
@@ -7824,7 +7888,7 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 15
   title: Play Again?
@@ -7906,7 +7970,7 @@ MonoBehaviour:
     y: 247.44
     width: 174.23999
     height: 54.239998
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114838657078007898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8571,11 +8635,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  isEditing: 0
+  isEditing: 1
   title: Heading
-  slotSize: {x: 19.335938, y: 3.515625}
-  sizeType: 0
-  positionType: 0
+  slotSize: {x: 20.4, y: 7.9}
+  sizeType: 1
+  positionType: 2
   slotSpacing: 0
   lineID: -1
   alternativeInputButton: 
@@ -8597,11 +8661,11 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.872
-    y: 15.872
-    width: 198
-    height: 27
-  relativePosition: {x: 0, y: 0}
+    x: 10.009601
+    y: 50.530533
+    width: 208.896
+    height: 50.56
+  relativePosition: {x: 1.7, y: 10.7}
   numSlots: 1
   uiText: {fileID: 0}
   label: 'Team Pillow Fort:'
