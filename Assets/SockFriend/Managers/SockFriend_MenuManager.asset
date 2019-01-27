@@ -263,7 +263,7 @@ MonoBehaviour:
     y: 280.32004
     width: 686.07996
     height: 284.15997
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114008951681933864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -754,7 +754,7 @@ MonoBehaviour:
     y: 144.036
     width: 379.90402
     height: 479.928
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114074469003135698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -868,7 +868,7 @@ MonoBehaviour:
     y: 187.52002
     width: 378.87997
     height: 264.95996
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114074979973905148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1309,7 +1309,7 @@ MonoBehaviour:
     y: 176
     width: 317.43997
     height: 288
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114113934277282254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1474,7 +1474,7 @@ MonoBehaviour:
     y: 213.76001
     width: 317.43997
     height: 212.48
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114154229666134762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1646,7 +1646,7 @@ MonoBehaviour:
     y: 330.492
     width: 41
     height: 21
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114181132143012648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1948,7 +1948,7 @@ MonoBehaviour:
     y: 131.30746
     width: 556.032
     height: 505.38507
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114274419094124782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2364,9 +2364,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
@@ -3224,7 +3224,7 @@ MonoBehaviour:
     y: 325.7056
     width: 341.47202
     height: 116.588806
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114426656923877172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3805,7 +3805,7 @@ MonoBehaviour:
     y: 0
     width: 1024
     height: 115.200005
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114526571698917310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4033,9 +4033,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
@@ -4475,7 +4475,7 @@ MonoBehaviour:
     y: 289.536
     width: 200.70401
     height: 188.928
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114565192986294506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4724,7 +4724,7 @@ MonoBehaviour:
     y: 229.25635
     width: 569.9232
     height: 309.4873
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114596926658251240
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4973,7 +4973,7 @@ MonoBehaviour:
     y: 118.272
     width: 463.72617
     height: 531.456
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114607146306223648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5489,9 +5489,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
@@ -6265,9 +6265,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
@@ -6547,7 +6547,7 @@ MonoBehaviour:
   ID: 0
   isEditing: 1
   title: Play Again
-  slotSize: {x: 16.015625, y: 5.7291665}
+  slotSize: {x: 16.015625, y: 6.875}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6574,7 +6574,7 @@ MonoBehaviour:
     x: 5.12
     y: 5.12
     width: 164
-    height: 43.999996
+    height: 44
   relativePosition: {x: 37, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -6825,7 +6825,7 @@ MonoBehaviour:
     y: 213.76001
     width: 317.43997
     height: 212.48
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114739020683211494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6926,7 +6926,7 @@ MonoBehaviour:
     y: 634.88
     width: 5.12
     height: 5.12
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114740011068465206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7157,9 +7157,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
@@ -7464,7 +7464,7 @@ MonoBehaviour:
   rectTransformID: 14532472
   uiTransitionType: 1
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 9
   title: Subtitles
@@ -7550,7 +7550,7 @@ MonoBehaviour:
     y: 492.8
     width: 820.224
     height: 147.2
-  showInFilter: 1
+  showInFilter: 0
 --- !u!114 &114778570782976766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7824,13 +7824,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 15
   title: Play Again?
-  manualSize: {x: 17.015625, y: 7.062499}
+  manualSize: {x: 17.015625, y: 8.474999}
   positionType: 2
-  manualPosition: {x: 55.6, y: 84.6}
+  manualPosition: {x: 13.5, y: 42.9}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -7899,13 +7899,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 169.12, y: 49.119995}
+  biggestElementSize: {x: 169.12, y: 49.12}
   rect:
     serializedVersion: 2
-    x: 482.224
-    y: 622.608
+    x: 51.12001
+    y: 247.44
     width: 174.23999
-    height: 54.239994
+    height: 54.239998
   showInFilter: 1
 --- !u!114 &114838657078007898
 MonoBehaviour:
@@ -8123,9 +8123,9 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    lookActionList: {fileID: 0}
     interactions:
-    - actionList: {fileID: 11400000, guid: 2ca7207bbcf594856896859cd7fabf55, type: 2}
+    - actionList: {fileID: 0}
       icon:
         texture: {fileID: 2800000, guid: 5dd2f8ab867e7f648bc124f1b64d8e3d, type: 3}
         isAnimated: 0
